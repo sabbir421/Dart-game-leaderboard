@@ -8,7 +8,8 @@ const CurrentPlayers = ({ currentPlayers }) => {
         style={{
           textAlign: "center",
           color: "#0000CD",
-          fontFamily: "cursive"
+          fontFamily: "cursive",
+          marginBottom: "50px"
         }}
       >
         Playing Now

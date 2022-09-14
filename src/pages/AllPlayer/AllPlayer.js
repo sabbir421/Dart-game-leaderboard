@@ -17,12 +17,6 @@ const AllPlayer = ({ allPlayer }) => {
         >
           {allPlayer.name}
         </h3>
-        <h3
-          className="text-white mt-2"
-          style={{ fontFamily: "cursive", textAlign: "center" }}
-        >
-          score : {allPlayer.total_point}
-        </h3>
       </div>
     </Grid>
   );

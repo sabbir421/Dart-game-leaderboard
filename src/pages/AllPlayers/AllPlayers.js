@@ -6,7 +6,7 @@ const AllPlayers = () => {
   const [allPlayers, setAllPlayers] = useState([]);
   useEffect(() => {
     const interval = setInterval(
-      fetch("http://localhost:8081/leader-board")
+      fetch("http://localhost:8081/all-players")
         .then(res => res.json())
         .then(data => {
           setAllPlayers(data);
